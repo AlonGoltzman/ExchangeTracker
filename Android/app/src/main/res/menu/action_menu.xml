@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_check_rates"
+          android:title="@string/check_rates"/>
+
+    <item android:id="@+id/action_upload"
+          android:title="@string/upload"/>
+
+    <item android:id="@+id/action_download"
+          android:title="@string/download"/>
+
+    <item
+        android:id="@+id/action_auto_upload"
+        android:checkable="true"
+        android:title="@string/auto_upload"/>
+
+</menu>

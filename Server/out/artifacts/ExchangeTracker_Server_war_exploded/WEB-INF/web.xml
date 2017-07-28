@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>ExchangeTrackerKeyFetcher</servlet-name>
+        <servlet-class>com.alon.exchangetrackerserver.ExchangeTrackerKeyFetcher</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExchangeTrackerKeyFetcher</servlet-name>
+        <url-pattern>/ExchangeTracker/key</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExchangeTrackerUIDFetcher</servlet-name>
+        <servlet-class>com.alon.exchangetrackerserver.ExchangeTrackerUIDFetcher</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExchangeTrackerUIDFetcher</servlet-name>
+        <url-pattern>/ExchangeTracker/uid</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExchangeTrackerKeyHash</servlet-name>
+        <servlet-class>com.alon.exchangetrackerserver.ExchangeTrackerKeyHash</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExchangeTrackerKeyHash</servlet-name>
+        <url-pattern>/ExchangeTracker/hash</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExchangeTrackerMain</servlet-name>
+        <servlet-class>com.alon.exchangetrackerserver.ExchangeTracker</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExchangeTrackerMain</servlet-name>
+        <url-pattern>/ExchangeTracker</url-pattern>
+    </servlet-mapping>
+
+    <listener>
+        <listener-class>com.alon.exchangetrackerserver.ExchangeTrackerDeploymentListener</listener-class>
+    </listener>
+
+</web-app>

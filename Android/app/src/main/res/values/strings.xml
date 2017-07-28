@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Exchange Tracker</string>
+    <string name="wontNotify">Won\'t Notify</string>
+    <string name="willNotify">Will Notify</string>
+    <string name="shouldNotify">Should Notify If Passed Certain Amount:</string>
+    <string name="amountToConvert">Amount to convert</string>
+    <string name="amountToNotify">The minimum amount to notify about</string>
+    <string name="cancel">Dismiss</string>
+    <string name="saveTracker">Save</string>
+    <string name="addTracker">+</string>
+    <string name="toCurrency">Currency to convert to</string>
+    <string name="originCurrency">Current currency</string>
+    <string name="conversionRowText">From %1$s To %2$s</string>
+    <string name="needsInternetPermission">The Application requires Internet access to work</string>
+    <string name="failedInsertingTrackers">Failed uploading data to server</string>
+    <string name="MIM">App detected possible man-in-the-middle attack, stopping background service</string>
+    <string name="sync">Refresh</string>
+    <string name="creating"><u>Create A Tracker</u></string>
+    <string name="updating"><u>Update A Tracker</u></string>
+    <string name="retrying">Retrying the upload</string>
+    <string name="actions">Actions</string>
+    <string name="check">Check Rates</string>
+    <string name="download">Download Trackers</string>
+    <string name="upload">Upload Trackers</string>
+    <string name="check_rates">Check Rates</string>
+    <string name="auto_upload">Upload Every Change</string>
+    <string name="noConnection">Please Check your internet connection</string>
+    <string name="gotConnection">Connection Established</string>
+    <array name="currencies">
+        <item>AUD</item>
+        <item>BGN</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HRK</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>USD</item>
+        <item>ZAR</item>
+    </array>
+</resources>

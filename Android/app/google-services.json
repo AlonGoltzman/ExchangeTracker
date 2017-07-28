@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "738761574123",
+    "firebase_url": "https://exchange-tracker.firebaseio.com",
+    "project_id": "exchange-tracker",
+    "storage_bucket": "exchange-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738761574123:android:1b660847bbb39499",
+        "android_client_info": {
+          "package_name": "com.alon.exchangetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738761574123-jucs5f8q66tr5vs566supm7o3rglpa0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlkhnzQwU4GJvCoZzLGCjO2-GZaQGjKfM"
+        },
+        {
+          "current_key": "AIzaSyDiBbP6OPd5fW8rJDBTAVH60zEwioqV74A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

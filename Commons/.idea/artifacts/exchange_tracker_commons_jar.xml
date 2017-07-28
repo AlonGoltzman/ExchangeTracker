@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="exchange-tracker-commons:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/exchange_tracker_commons_jar</output-path>
+    <root id="archive" name="exchange-tracker-commons.jar">
+      <element id="module-output" name="ExchangeTrackerCommons" />
+      <element id="file-copy" path="$PROJECT_DIR$/assets/commons-codec-1.10.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/assets/java-json.jar" />
+    </root>
+  </artifact>
+</component>

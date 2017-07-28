@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <TextView
+        android:id="@+id/trackerInfo_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="@string/originCurrency"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <Spinner
+        android:id="@+id/trackerInfo_coinType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/currencies"
+        android:paddingBottom="15dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/trackerInfo_sumLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/trackerInfo_conversionAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/amountToConvert"
+            android:inputType="number"
+            android:paddingBottom="15dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="@string/toCurrency"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <Spinner
+        android:id="@+id/trackerInfo_conversionType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/currencies"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:text="@string/shouldNotify"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <ToggleButton
+        android:id="@+id/trackerInfo_notify"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textOff="@string/wontNotify"
+        android:textOn="@string/willNotify"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/trackerInfo_notifyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/trackerInfo_AmountToNotifyOver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/amountToNotify"
+            android:inputType="number"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="1"
+        tools:ignore="ButtonStyle">
+
+        <Button
+            android:id="@+id/trackerInfo_dismissTracker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/cancel"/>
+
+        <Button
+            android:id="@+id/trackerInfo_saveTracker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/saveTracker"/>
+    </LinearLayout>
+
+</LinearLayout>
